@@ -1,15 +1,18 @@
-##ifndef ATBASHCIPHER_H
+#ifndef ATBASHCIPHER_H
 #define  ATBASHCIPHER_H
 
-class AtbashCipher {
+
+class AtbashCipher
+{
 public:
-  char * decode(char *);
+  std::string decode(std::string);
+  std::string encode(std::string);
+
 
 private:
-  
 
 
-}
+};
 
 
 
